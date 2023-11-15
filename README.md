@@ -1,3 +1,15 @@
+## What, Why
+Dipping my toes into nextJS, this is only part of the project, very early and incomplete..
+This frontend connects to a PocketBase database api and pulls from a collection.
+
+This part of the project is a python script that allows me to put in a youtube watch url
+and grab data about the video then saves it to a pocketbase collection.
+
+I'm doing this purely for the enjoyment of coding honestly, I mean it's basically the same thing I can 
+do directly with the youtube app/website. I don't know, it was an idea and I ran with it. 
+
+-----------------------------------------------------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

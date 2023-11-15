@@ -11,8 +11,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 0,0,0;
+    --background-end-rgb: 0,0,0;
   }
 }
 
@@ -24,4 +24,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+.card {
+  @apply bg-white rounded-md m-5 overflow-hidden mx-auto relative max-w-xs
+}
+
+.badge {
+  @apply bg-slate-400 text-xs uppercase font-bold rounded-full p-2 absolute top-2 left-2
+}
+
+.vid-time-badge {
+  @apply bg-slate-400 text-xs uppercase font-bold rounded-full p-2 absolute top-12 left-2
 }
