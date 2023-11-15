@@ -2,7 +2,7 @@
 Dipping my toes into nextJS, this is only part of the project, very early and incomplete..
 This frontend connects to a PocketBase database api and pulls from a collection.
 
-This part of the project is a python script that allows me to put in a youtube watch url
+The other part of the project is a python script that allows me to put in a youtube watch url
 and grab data about the video then saves it to a pocketbase collection.
 
 I'm doing this purely for the enjoyment of coding honestly, I mean it's basically the same thing I can 
